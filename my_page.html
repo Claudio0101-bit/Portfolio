@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfólio - Cláudio Pires</title>
+        <link rel="stylesheet" href="styles/reset.css">
+        <link rel="stylesheet" href="styles/my_style.css">
+    </head>
+
+    <body>
+        <!-- Cabeçalho da Página -->
+        <header>     
+            <h1 class="title">Cláudio Pires Salgado</h1>
+            <nav class="menu">
+                <a href="#">Início</a>
+                <a href="#">Sobre</a>
+                <a href="#">Configurações</a>
+            </nav>
+    
+            <nav class="menu-burger">
+                <input type="checkbox" class="menu-faketrigger">
+
+                <div class="menu-lines">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul>
+                    <li><a href="">Início</a></li>
+                    <li><a href="">Sobre</a></li>
+                    <li><a href="">Configurações</a></li>
+                </ul>
+            </nav>
+        </header>         
+
+        <!-- Conteúdo Principal (Main) -->
+        <main>
+
+            <!-- Seção de Apresentação Pessoal (Mínimo de 50 palavras)-->
+            <section class="presentation">
+
+            <!-- Foto do Candidato: Cláudio Pires Salgado -->
+            <!-- Uso da Tag Figure para futura estilização e responsividade-->
+                <figure>
+                    <img src="assets/Foto_Claudio.jpeg" alt="Foto de Cláudio Pires Salgado">
+                </figure>
+            
+                <div class="presentation-text">
+                    <h2 class="subtitle">Quem sou eu?</h2>
+                    <p class="paragraph">
+                        Meu nome é Cláudio Pires Salgado, tenho 20 anos, sou um estudante de graduação em Ciência da Computação na Universidade Federal Fluminense (UFF). Atualmente, estou no 5° período do curso. Tenho interesse em Desenvolvimento Web, Ciência de Dados, Inteligência Artificial e Segurança da Informação. Estou sempre em busca de aprender e crescer tanto pessoal quanto profissionalmente.
+                    </p>
+                </div>
+            </section>
+
+            <section class="all-lists">
+
+                <!-- Seção de Hobbies -->
+                <div class="list-section hobbies">
+                    <h2 class="subtitle">Meus Hobbies</h2>
+                    <ul class="list">
+                        <li class="item tooltip">
+                            <img src="assets/hobbies/muay_thai.jpg" alt="Imagem de Muay Thai">
+                            <span class="tooltip-text">Musculação e Muay Thai</span>
+                        </li>
+                        <li class="item tooltip">
+                            <img src="assets/hobbies/videogame.jpg" alt="Imagem de uma pessoa jogando videogame">
+                            <span class="tooltip-text">Jogar videogames</span> 
+                        </li>
+                        <li class="item tooltip">
+                            <img src="assets/hobbies/series.png" alt="">
+                            <span class="tooltip-text">Assistir séries e filmes</span>
+                        </li>
+                        <li class="item tooltip">
+                            <img src="assets/hobbies/estudar.jpg" alt="Uma pessoa olhando para um computador com efeitos visuais de tecnologia">
+                            <span class="tooltip-text">Estudar tecnologia</span>
+                        </li>
+                        <li class="item tooltip">
+                            <img src="assets/hobbies/amigo.jpg" alt="Amigos conversando do lado de um carro">
+                            <span class="tooltip-text">Sair com amigos</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Seção de Top 5 -->
+                <div class="list-section tops">
+                    <h2 class="subtitle">Top 5 Jogos que já joguei</h2>
+                    <ol class="list">
+                        <li class="item top3">
+                            <div class="first"><p>1</p></div>
+                            <img src="assets/games/Logo_of_Stardew_Valley.png" alt="Capa de Stardew Valley">
+                            <!-- <p>Stardew Valley</p> -->
+                        </li>
+                        <li class="item top3">
+                            <div class="second"><p>2</p></div>
+                            <img src="assets/games/Logo_of_Minecraft.png" alt="Capa de Minecraft">
+                            <!-- <p>Minecraft</p> -->
+                        </li>
+                        <li class="item top3">
+                            <div class="third"><p>3</p></div>
+                            <img src="assets/games/Batman_Arkham_Knight_Capa.jpg" alt="Capa de Batman Arkham Knight">
+                            <!-- <p>Batman Arkham Knight</p> -->
+                        </li>
+                        <li class="item">
+                            <img src="assets/games/Lego_Marvel_Super_Heroes_Capa.jpg" alt="Capa de Lego Marvel Superheroes">
+                            <!-- <p>Lego Marvel Superheroes</p> -->
+                        </li>
+                        <li class="item">
+                            <img src="assets/games/Titanfall_2_cover.jpg" alt="Capa de Titanfall 2">
+                            <!-- <p>TitanFall 2</p> -->
+                        </li>
+                    </ol>
+                </div>
+            </section>
+
+            <!-- Seção de Feedbacks -->
+            <section class="feedback-section">
+                <div>
+                    <h2 class="subtitle">Feedbacks</h2>
+                </div>
+                <form action="">
+                    <textarea name="feedback" placeholder="Dê um feedback para esse desenvolvedor"></textarea>
+                    <input type="text" placeholder="Digite seu nome aqui">
+                    <div>
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
+            </section>
+
+        </main>
+        
+
+        <!-- Rodapé da Página -->
+        <footer>
+            <!-- Menu de Navegação -->
+            <nav>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="assets/medias/instagram_pin.png" alt="Logo do Instagram">
+                </a>
+                <a href="https://www.linkedin.com/" target="_blank">
+                    <img src="assets/medias/linkedin_pin.png" alt="Logo do Linkedin">
+                </a>
+                <a href="https://www.facebook.com/?locale=pt_BR" target="_blank">
+                    <img src="assets/medias/facebook_pin.png" alt="Logo do Facebook">
+                </a>
+                <a href="https://github.com/Claudio0101-bit" target="_blank">
+                    <img src="assets/medias/gitlab_pin.png" alt="Logo do GitLab">
+                </a>
+            </nav>
+            
+            <a href="#" class="btn-contact">Entrar em Contato</a>
+            
+        </footer>
+    </body>
+</html>
